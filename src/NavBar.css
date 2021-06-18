@@ -1,0 +1,38 @@
+.movies_logo p {
+  font-size: 3rem;
+  color:rgb(223, 123, 69);
+  text-shadow: 2px -30px 20px 3px rgb(244, 73, 73);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile_logo {
+  width:55px;
+  cursor: pointer;
+}
+
+.profile_logo > img {
+  width:100%;
+  border-radius: 50%;
+}
+
+.nav {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  height:60px;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_black {
+  background: rgb(11, 11, 11);
+}
