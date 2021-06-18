@@ -1,9 +1,10 @@
 .movies_logo p {
   font-size: 3rem;
   color:rgb(223, 123, 69);
-  text-shadow: 2px -30px 20px 3px rgb(244, 73, 73);
+  text-shadow: 2px 2px rgb(213, 0, 0);
   font-weight: 600;
   cursor: pointer;
+  line-height: 60px;
 }
 
 .profile_logo {

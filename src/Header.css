@@ -1,0 +1,27 @@
+.header_content {
+  padding-top: 100px;
+  margin-left: 50px;
+}
+
+.header_content > h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+.header_content > p {
+width:60rem;
+}
+.header_btns button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+  padding:1rem 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 3px;
+  transition: all 0.3s ease-in;
+} 
+
+.header_btns button:hover {
+  background-color: rgb(188, 191, 191);
+}
