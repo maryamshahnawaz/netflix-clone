@@ -1,16 +1,27 @@
+p {
+  line-height: 1.3;
+}
+.movie_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:85vh;
+}
+
 .header_content {
-  padding-top: 100px;
-  margin-left: 50px;
+  position: relative;
+  box-shadow: 2px 3px  20px 3px rgb(255, 160, 100);
+  width:70vw;
+  padding:3rem;
 }
 
 .header_content > h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
+  line-height: 1.3;
+  
 }
 
-.header_content > p {
-width:60rem;
-}
 .header_btns button{
   border: none;
   outline: none;
@@ -24,4 +35,19 @@ width:60rem;
 
 .header_btns button:hover {
   background-color: rgb(188, 191, 191);
+}
+
+.popularity {
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  background-color: rgb(205, 96, 38);
+  color:rgb(232, 232, 232);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  top:15%;
+  right:0;
 }
