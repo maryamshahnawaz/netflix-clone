@@ -2,6 +2,10 @@ import React from 'react';
 import "./Header.css";
 
 const Header = () => {
+  const truncate = (str, num) => {
+    return str?.length > num ? str.substr(0, num - 1) + "..." : str;
+
+  }
   return (
     <header className="movie
     _header" style={{
@@ -12,7 +16,7 @@ const Header = () => {
       }}>
       <div className="header_content">
         <h1>title</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam distinctio eaque ad incidunt sint perferendis aliquam, officia numq impedit harum blanditiis or quis earum </p>
+        <p className="">{truncate(`Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam distinctio eaque ad incidunt sint perferendis aliquam, officia numq impedit harum blanditiis or quis earum </p>`, 150)}</p>
         <div className="header_btns">
           <button>
             Play
