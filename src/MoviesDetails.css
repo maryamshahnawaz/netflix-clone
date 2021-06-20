@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  padding:7rem 2rem 0 2rem;
+  margin: 0 auto; 
+  background: #1f2f57;
+  height:100vh;
+  color: #fff;
+
+}
+
+.description {
+  width: 50%; 
+  margin-top: 3rem;
+}
+
+.description h2 {
+  padding: 10px 0px; 
+}
+
+.description p {
+  line-height: 1.5; 
+}
+
+.image > img {
+  max-width: 300px;
+}
+
+h3 {
+  font-size: 4rem;
+  
+}
+h4 {
+  font-size: 3rem;
+}

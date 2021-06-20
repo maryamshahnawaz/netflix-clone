@@ -38,3 +38,7 @@
 .nav_black {
   background: #1f2f57;
 }
+
+a {
+  text-decoration: none;
+}

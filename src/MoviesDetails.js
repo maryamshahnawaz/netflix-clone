@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import "./MoviesDetails.css";
+import NavBar from "./NavBar";
+
+
+
 function MovieDetails(props) {
   const [movie, setMovie] = useState({});
 
@@ -17,21 +22,25 @@ function MovieDetails(props) {
       },
     }).then((response) => {
       setMovie(response.data);
+      console.log(response.data);
     });
   }, [props.match.params]);
   const { title, tagline, overview, poster_path } = movie;
 
   return (
-    <div className="poster">
-      <div className="description">
-        <h1>{title}</h1>
-        <h2>{tagline}</h2>
-        <p>{overview}</p>
+    <>
+      <NavBar />
+      <div className="card">
+        <div className="description">
+          <h3>{title}</h3>
+          <h4>{tagline}</h4>
+          <p>{overview}</p>
+        </div>
+        <div className="image">
+          <img src={`http://image.tmdb.org/t/p/w500/${poster_path}`} alt={`Movie poster for ${title}`} />
+        </div>
       </div>
-      <div className="image">
-        <img src={`http://image.tmdb.org/t/p/w500/${poster_path}`} alt={`Movie poster for ${title}`} />
-      </div>
-    </div>
+    </>
   );
 }
 export default MovieDetails;

@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
-import HomePage from './HomePage';
 
 function App() {
   return (
@@ -36,12 +35,6 @@ function App() {
         <Route path="/">
           <TvShow link={"airing_today"} />
         </Route>
-
-
-
-
-
-
       </Router>
 
 
