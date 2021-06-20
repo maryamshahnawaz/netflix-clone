@@ -21,8 +21,6 @@ const Header = () => {
   const truncate = (str, num) => {
     return str?.length > num ? str.substr(0, num - 1) + "..." : str;
   }
-  console.log(background
-  );
 
   return (
     <>
@@ -37,7 +35,7 @@ const Header = () => {
         <div className="header_content">
           <p class="popularity">{background?.vote_average * 10}%</p>
           <h1>{background?.title || background?.name || background?.original_name}</h1>
-          <p className="">{truncate(`${background.overview}`, 150)}</p>
+          <p >{truncate(`${background.overview}`, 150)}</p>
           <div className="header_btns">
             <button>
               Play

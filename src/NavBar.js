@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./NavBar.css";
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   const [navBackgroundColor, showNavBackgroundColor] = useState(false);
   const handleNabarColor = () => {

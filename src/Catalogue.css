@@ -1,0 +1,57 @@
+img {
+  width:100%;
+  display:block;
+}
+.movie {
+  width: 130px; 
+}
+
+.movies__catalogue {
+  display:flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding:20px;
+  background-color: #fff;
+  color:black;
+  
+}
+
+ h2 {
+  color: #1f2f57;
+  margin-top: 2rem;
+}
+
+.single_movie {
+  width:150px;
+  padding:2rem 1rem;
+  margin: 5px;
+  object-fit: contain;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  color:black;
+  transition:transform 450ms;
+  box-shadow: 2px 3px 20px 3px rgb(149, 220, 245);
+}
+
+.movie img {
+  width:100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.single_movie:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.title_paragraph {
+  background: transparent;
+  padding-bottom: 1rem;
+}
+
+.top_movie {
+  text-align: left;
+  margin-left: 20px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
