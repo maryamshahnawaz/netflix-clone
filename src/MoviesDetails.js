@@ -7,7 +7,6 @@ import NavBar from "./NavBar";
 
 function MovieDetails(props) {
   const [movie, setMovie] = useState({});
-
   useEffect(() => {
     const { movieID } = props.match.params;
     axios({

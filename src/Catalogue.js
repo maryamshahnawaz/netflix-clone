@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Catalogue.css';
-const Catalogue = ({ title, link }) => {
+const Catalogue = ({ title, link, genre }) => {
   const [movies, setMovies] = useState([]);
-  const url = `https://api.themoviedb.org/3/movie/${link}/`
+  // const url = `https://api.themoviedb.org/3/movie/${link}/`
+  const url = `https://api.themoviedb.org/3/discover/movie?$`
   useEffect(() => {
     axios({
       url: `${url}`,
@@ -12,6 +13,7 @@ const Catalogue = ({ title, link }) => {
       dataResponse: 'json',
       params: {
         api_key: "7b4ee228270013c7be42d484778165ef",
+        with_genres: genre
       },
 
     }).then((res) => {

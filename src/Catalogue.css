@@ -30,7 +30,7 @@ img {
   border-radius: 5px;
   color:black;
   transition:transform 450ms;
-  box-shadow: 2px 3px 20px 3px rgb(149, 220, 245);
+  box-shadow: 2px 3px 20px 3px #d3713c;
 }
 
 .movie img {
