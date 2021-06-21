@@ -3,7 +3,6 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Catalogue from "./Catalogue";
 import MovieDetails from './MoviesDetails';
-import Genre from "./Genre";
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 // import logo from './logo.svg';

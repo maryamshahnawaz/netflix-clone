@@ -34,11 +34,17 @@ function MovieDetails(props) {
           <h3>{title}</h3>
           <h4>{tagline}</h4>
           <p>{overview}</p>
+          <p>Movie Run Time: {movie.runtime}</p>
+          <p>Movie Release Date: {movie.release_date}</p>
+          <span>
+            <a href={movie.homepage}>Trailer</a>
+          </span>
         </div>
         <div className="image">
           <img src={`http://image.tmdb.org/t/p/w500/${poster_path}`} alt={`Movie poster for ${title}`} />
         </div>
       </div>
+
     </>
   );
 }

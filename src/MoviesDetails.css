@@ -6,7 +6,6 @@
   background: #1f2f57;
   height:100vh;
   color: #fff;
-
 }
 
 .description {
@@ -19,7 +18,8 @@
 }
 
 .description p {
-  line-height: 1.5; 
+  line-height: 1.5;
+  margin-bottom: 0.50rem;
 }
 
 .image > img {
@@ -28,8 +28,18 @@
 
 h3 {
   font-size: 4rem;
-  
 }
+
 h4 {
   font-size: 3rem;
+}
+
+a{
+  color:orange;
+  font-size: 2rem;
+  font-weight: 800;
+}
+span {
+  background: white;
+  padding: 1rem 2rem;
 }
