@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Catalogue from "./Catalogue";
 import MovieDetails from './MoviesDetails';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
