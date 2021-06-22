@@ -16,14 +16,14 @@ img {
   
 }
 
- h2 {
+h2 {
   color: #1f2f57;
   margin-top: 2rem;
 }
 
 .single_movie {
   width:150px;
-  padding:2rem 1rem;
+  padding: 1rem;
   margin: 5px;
   object-fit: contain;
   background: rgb(255, 255, 255);

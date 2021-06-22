@@ -26,6 +26,7 @@ const NavBar = () => {
             <p>Movies Mach </p>
           </div>
         </Link>
+
         <div className="profile_logo">
           <img src="https://cdna.artstation.com/p/assets/images/images/023/576/078/original/ying-chen-me-optimize.gif?1579652163" alt="User profile logo" />
         </div>

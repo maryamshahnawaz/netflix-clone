@@ -19,7 +19,7 @@ const Catalogue = ({ title, link, genre }) => {
     }).then((res) => {
       setMovies(res.data.results);
     })
-  }, [url]);
+  }, [genre, url]);
   const truncate = (string, n) => {
     return string?.length > n ? string.substring(0, n - 1) + "..." : string;
   }

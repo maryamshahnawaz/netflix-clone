@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Catalogue from "./Catalogue";
 import MovieDetails from './MoviesDetails';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
@@ -13,8 +13,10 @@ function App() {
   return (
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
+
         <Route path="/" exact component={NavBar} />
         <Route path="/" exact component={Header} />
+
         <Route exact path="/">
           <Catalogue title="Action" genre={28} />
         </Route>
@@ -73,6 +75,7 @@ function App() {
           <Catalogue title="Western" genre={37} />
         </Route>
         <Route path="/movie/:movieID/" exact component={MovieDetails} />
+
       </Router>
 
 
