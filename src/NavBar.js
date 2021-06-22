@@ -23,7 +23,7 @@ const NavBar = () => {
       <div className="wrapper nav_content">
         <Link to="/">
           <div className="movies_logo">
-            <p>Movies Mach </p>
+            <p>Movies Iconic </p>
           </div>
         </Link>
 
