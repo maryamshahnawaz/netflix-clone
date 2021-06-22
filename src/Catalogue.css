@@ -12,9 +12,12 @@ img {
   overflow-x: scroll;
   padding:20px;
   background-color: #fff;
-  color:black;
-  
+  color:black; 
 }
+.movies__catalogue::-webkit-scrollbar {
+  display: none;
+}
+
 
 h2 {
   color: #1f2f57;
