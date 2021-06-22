@@ -4,7 +4,6 @@ import "./MoviesDetails.css";
 import NavBar from "./NavBar";
 
 
-
 function MovieDetails(props) {
   const [movie, setMovie] = useState({});
   useEffect(() => {
